@@ -1,0 +1,55 @@
+/* Top Navbar */
+.overall-container{
+    background-image:  url(images/home_body_bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.fixed-width{
+    max-width: 65%;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+.resize-logo{
+    width: 139px;
+}
+.nav-btn-style{
+    color: #707070;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.logo-adjust-left{
+    width: 46px;
+    padding-bottom: 6px;
+}
+.logo-adjust-right{
+    width: 27px;
+}
+/* middle text */
+.mid-content-margin{
+    margin-top: 145px;
+    margin-bottom: 106px;
+    color: #0d51b9;
+}
+.mid-content-margin p{
+    font-size: 19px;
+
+}
+
+/* Designing cards */
+
+.set-card-bg{
+    background-color: #5181CD;
+    opacity: 0.9;
+    height: 170px;
+}
+.bg-green{
+    background-color: #6aab5c !important;
+
+}
+.bg-lightblue{
+    background-color: #87c7d2 !important;
+
+}
