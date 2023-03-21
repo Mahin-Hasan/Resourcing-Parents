@@ -1,9 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/* body::-webkit-scrollbar {
+    display: none;
+}
+.fixed-container {
+    width: 1200px;
+    margin: 0 auto;
+} */
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.clear-float {
+    content: "";
+    clear: both;
+    display: table;
+}
 /* Top Navbar */
 .overall-container{
     background-image:  url(images/home_body_bkg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.fluid-container{
+    width: 100%;
 }
 .fixed-width{
     max-width: 65%;
@@ -27,6 +60,22 @@
 .logo-adjust-right{
     width: 27px;
 }
+/* functional navbar*/
+.functional-navbar img{
+width: 41px;
+height: 43px;
+margin-bottom: 1px;
+}
+.left-options{
+    float: left;
+}
+.left-options a, .right-options a{
+    display: block;
+}
+.right-options{
+    float: right;
+}
+
 /* middle text */
 .mid-content-margin{
     margin-top: 145px;
@@ -37,9 +86,7 @@
     font-size: 19px;
 
 }
-
 /* Designing cards */
-
 .set-card-bg{
     background-color: #5181CD;
     opacity: 0.9;
@@ -51,5 +98,25 @@
 }
 .bg-lightblue{
     background-color: #87c7d2 !important;
+
+}
+
+/* footer */
+.footer-margin{
+    margin-top: 193px;
+}
+.fb-logo{
+    height: 31px;
+}
+.small-paragraph{
+    font-size: 7px;
+    color: #0d51b9;
+}
+.nsw-logo{
+    height: 38px;
+}
+.link-adjustment{
+    color: #0d51b9;
+    font-size: 12px;
 
 }
