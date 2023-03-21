@@ -46,6 +46,9 @@ a {
 .resize-logo{
     width: 139px;
 }
+.navbar-options a, .navbar-options li{
+    display: inline-block;
+}
 .nav-btn-style{
     color: #707070;
     text-decoration: none;
@@ -69,7 +72,39 @@ margin-bottom: 1px;
 .left-options{
     float: left;
 }
-.left-options a, .right-options a{
+.middle-options{
+    float: left;
+    width: 95.1%;
+    border: 2px solid;
+    height: 86px;
+}
+.keyword-options, .about-options, .when-options, .who-options{
+    float: left;
+    width: 17.4%;
+    border: 2px solid;
+}
+.age-options,.language-options{
+    float: left;
+    width: 9%;
+    border: 2px solid;
+}
+.where-options{
+    float: left;
+    width: 12.4%;
+    border: 2px solid;
+}
+.input-field input{
+    width: 100%;
+    padding: 6px;
+    border: none;
+}
+.blue-background{
+    background-color: #0150bc;
+}
+.middle-options button{
+    padding: 10px;
+}
+.left-options a,.right-options a{
     display: block;
 }
 .right-options{
@@ -82,7 +117,7 @@ margin-bottom: 1px;
     margin-bottom: 106px;
     color: #0d51b9;
 }
-.mid-content-margin p{
+.mid-content-margin div{
     font-size: 19px;
 
 }
