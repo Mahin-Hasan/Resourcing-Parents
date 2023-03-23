@@ -71,10 +71,11 @@ margin-bottom: 1px;
 }
 .left-options{
     float: left;
+    width: 2.4%;
 }
 .middle-options{
     float: left;
-    width: 95.1%;
+    width: 95.2%;
     border: 2px solid;
     height: 86px;
 }
@@ -109,6 +110,7 @@ margin-bottom: 1px;
 }
 .right-options{
     float: right;
+    width: 2.4%;
 }
 
 /* middle text */
