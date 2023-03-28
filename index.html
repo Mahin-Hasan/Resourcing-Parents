@@ -47,21 +47,61 @@
                         <a href=""><img src="images/search_icon.png" alt="">
                         </a>
                     </li>
-                    <li style="display: none;"> <a href=""><img class="" src="images/refresh_white_icon.png" alt="">
+                    <li class="d-none"> <a href=""><img src="images/refresh_white_icon.png" alt="">
                         </a></li>
-                    <li> <a href=""><img class="" src="images/navbar_icon.png" alt="">
+                    <li> <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><img class="" src="images/navbar_icon.png" alt="">
                         </a></li>
-
                 </ul>
             </div>
+            <!-- toggle off canvas -->
+            <div class="offcanvas offcanvas-start position-offcanvas data-bs-scroll="true" data-bs-backdrop="false"" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseParent" aria-expanded="false" aria-controls="flush-collapseParent">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseParent" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
             <!-- inner input field -->
             <div class="middle-options">
                 <div class="keyword-options">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush position-relative" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
                                     Keyword & program finder
                                 </button>
@@ -69,29 +109,29 @@
                             <div class="input-field">
                                 <input type="text" name="" id="">
                             </div>
-                            
+
                         </div>
                     </div>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <div>What format of course are you looking for?</div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Default checkbox
-                                        </label>
-                                    </div>
-                                </div>
+                    <div id="flush-collapseOne" class="keyword-position accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div>What format of course are you looking for?</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Default checkbox
+                                </label>
                             </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-options">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseAbout" aria-expanded="false"
-                                    aria-controls="flush-collapseAbout">
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseAbout"
+                                    aria-expanded="false" aria-controls="flush-collapseAbout">
                                     What's it about?
                                 </button>
                             </h2>
@@ -118,8 +158,8 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseAge" aria-expanded="false"
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseAge" aria-expanded="false"
                                     aria-controls="flush-collapseAge">
                                     Child's Age
                                 </button>
@@ -147,9 +187,9 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseWhere" aria-expanded="false"
-                                    aria-controls="flush-collapseWhere">
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseWhere"
+                                    aria-expanded="false" aria-controls="flush-collapseWhere">
                                     Where?
                                 </button>
                             </h2>
@@ -176,8 +216,8 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseWhen" aria-expanded="false"
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseWhen" aria-expanded="false"
                                     aria-controls="flush-collapseWhen">
                                     When
                                 </button>
@@ -205,8 +245,8 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseWho" aria-expanded="false"
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseWho" aria-expanded="false"
                                     aria-controls="flush-collapseWho">
                                     Who is it for?
                                 </button>
@@ -234,9 +274,9 @@
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-white blue-background" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseLanguage" aria-expanded="false"
-                                    aria-controls="flush-collapseLanguage">
+                                <button class="accordion-button collapsed text-white blue-background" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseLanguage"
+                                    aria-expanded="false" aria-controls="flush-collapseLanguage">
                                     Languages
                                 </button>
                             </h2>
@@ -265,7 +305,7 @@
             <div class="right-options">
                 <ul>
                     <li>
-                        <a href=""> <img src="images/right_arrow.png" alt="">
+                        <a class="right-arrow blue-background" href=""> <img src="images/right_arrow.png" alt="">
                         </a>
                     </li>
                     <li>
@@ -339,13 +379,14 @@
                 </div>
             </div>
         </div>
-
     </div>
 </body>
 <!-- Bootstrap CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script src="js/jquery-3.6.3.min.js"></script>
 <script src="js/app.js"></script>
 
 </html>

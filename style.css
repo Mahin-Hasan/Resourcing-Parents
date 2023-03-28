@@ -65,38 +65,45 @@ a {
 }
 /* functional navbar*/
 .functional-navbar img{
-width: 41px;
-height: 43px;
+/* width: 41px;
+height: 43px; */
+
+width: 100%;
+height: 100%;
 margin-bottom: 1px;
 }
 .left-options{
     float: left;
-    width: 2.4%;
+    width: 2.5%;
 }
 .middle-options{
     float: left;
-    width: 95.2%;
-    border: 2px solid;
-    height: 86px;
+    width: 95%;
+    border: 1px solid;
+    /* height: 86px; */
 }
 .keyword-options, .about-options, .when-options, .who-options{
     float: left;
     width: 17.4%;
-    border: 2px solid;
+    border: 1px solid;
+}
+.keyword-position{
+    position: absolute;
+    border: 1px solid;
 }
 .age-options,.language-options{
     float: left;
     width: 9%;
-    border: 2px solid;
+    border: 1px solid;
 }
 .where-options{
     float: left;
     width: 12.4%;
-    border: 2px solid;
+    border: 1px solid;
 }
 .input-field input{
     width: 100%;
-    padding: 6px;
+    padding: 9px;
     border: none;
 }
 .blue-background{
@@ -108,11 +115,22 @@ margin-bottom: 1px;
 .left-options a,.right-options a{
     display: block;
 }
+.position-offcanvas{
+    top: 103px !important;
+    background-color: #9e9e9e !important;
+    width: 290px !important;
+}
 .right-options{
     float: right;
-    width: 2.4%;
+    width: 2.5%;
 }
-
+.right-arrow{
+    padding: 30px 15px;
+}
+.right-arrow img{
+    width: 10px;
+    height: 16px;
+}
 /* middle text */
 .mid-content-margin{
     margin-top: 145px;
