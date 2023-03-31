@@ -95,12 +95,50 @@ margin-bottom: 1px;
 }
 .keyword-menu{
     padding: 20px;
+    width: 400px;
+}
+.keyword-checkbox input[type="checkbox"]{
+    appearance: none;
+    padding: 10px;
+    border: 2px solid #0150bc;
+}
+.keyword-checkbox label{
+    padding: 2px 12px 2px 6px;
+    font-size: 13px;
+    line-height: 19px;    
 }
 .keyword-input{
     width: 100%;
     border: 2px solid #0150bc
 }
-.age-options,.language-options{
+.refresh-btn{
+    float: left;
+}
+.refresh-btn img{
+    width: 32px;
+}
+.course-btn{
+    float: right;
+    margin-top: 1px;
+}
+.course-btn li,
+.course-btn a{
+    display: inline-block;
+}
+.show-course-btn{
+    background-color: #8293b1;
+    padding: 7px 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.filter-btn{
+    background-color: #022c68;
+    padding: 7px 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.age-options,
+.language-options{
     float: left;
     width: 9%;
     border: 1px solid;
