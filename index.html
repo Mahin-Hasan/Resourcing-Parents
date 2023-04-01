@@ -379,8 +379,8 @@
                             </div>
                         </div>
                     </div>
-                    <div id="flush-collapseWhere" class="where-position accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseWhere" class="where-position accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body where-menu text-blue">
                             <div class="fw-bold mb-3">Where would you like to attend this course?</div>
                             <div class="row mb-2">
@@ -430,7 +430,7 @@
                 </div>
                 <!-- when -->
                 <div class="when-options">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush position-relative" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed text-white blue-background" type="button"
@@ -442,16 +442,122 @@
                             <div class="input-field">
                                 <input type="text" name="" id="">
                             </div>
-                            <div id="flush-collapseWhen" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <div>What format of course are you looking for?</div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Default checkbox
-                                        </label>
+                        </div>
+                    </div>
+                    <div id="flush-collapseWhen" class="when-position accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body when-menu text-blue">
+                            <div class="fw-bold mb-3">What date or timeframe did you have in mind?</div>
+                            <div class="row">
+                                <div class="col-sm-7 when-input">
+                                    <div class="mb-2 position-relative">
+                                        <span>
+                                            <label class="when-form-label">Select from date</label>
+                                            <input placeholder="" type="text" class="">
+                                        </span>
+                                        <span class="">
+                                            <i class="fa-solid fa-calendar"></i>
+                                        </span>
                                     </div>
+                                    <span class="when-or-position fw-bold">Or</span>
+                                    <div class="mb-2">
+                                        <span>
+                                            <label class=" when-form-label">Select to date</label><br>
+                                            <input placeholder="" type="text" class="">
+                                        </span>
+                                        <span class="">
+                                            <i class="fa-solid fa-calendar"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 mt-1">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sun
+                                                </label>
+                                            </div>
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mon
+                                                </label>
+                                            </div>
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Tue
+                                                </label>
+                                            </div>
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Wed
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Thu
+                                                </label>
+                                            </div>
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Fri
+                                                </label>
+                                            </div>
+                                            <div class="when-checkbox mb-2">
+                                                <input class="form-check-input mt-0" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sat
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fw-bold">Preferred time of day?</div>
+                                <div class="when-checkbox my-3 d-flex align-items-center text-blue">
+                                    <input class="form-check-input mt-0" type="checkbox" value="one to one"
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label px-2" for="flexCheckDefault">
+                                        Mornings
+                                    </label>
+                                    <input class="form-check-input mt-0" type="checkbox" value="groups or seminars"
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label px-2" for="flexCheckDefault">
+                                        AfterNoons
+                                    </label>
+                                    <input class="form-check-input mt-0" type="checkbox" value="online"
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label px-2" for="flexCheckDefault">
+                                        Evenings
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="refresh-btn">
+                                    <a href=""><img src="images/refresh_white_icon.png" alt=""></a>
+                                </div>
+                                <div class="course-btn text-white">
+                                    <ul>
+                                        <li><a class="show-course-btn" href="">Show courses</a></li>
+                                        <li><a class="filter-btn" href="">Filter some more</a></li>
+                                    </ul>
+                                </div>
+                                <div class="clear-float">
+                                    <!-- clearing float -->
                                 </div>
                             </div>
                         </div>
