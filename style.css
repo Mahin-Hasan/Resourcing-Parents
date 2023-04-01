@@ -89,7 +89,8 @@ margin-bottom: 1px;
 }
 .keyword-position,
 .about-position,
-.age-position{
+.age-position,
+.where-position{
     background-color: #ffffff;
     position: absolute;
     z-index: 1;
@@ -97,7 +98,8 @@ margin-bottom: 1px;
 }
 .keyword-menu,
 .about-menu,
-.age-menu{
+.age-menu,
+.where-menu{
     padding: 20px;
     width: 400px;
 }
@@ -116,6 +118,22 @@ margin-bottom: 1px;
     padding: 2px 12px 2px 6px;
     font-size: 13px;
     line-height: 19px;    
+}
+.where-menu input{
+    width: 100%;
+    border: 2px solid #0150bc;
+}
+.where-form-label{
+    font-size: 13px;
+    line-height: 19px; 
+}
+.range-options,
+.district-options{
+    width: 100%;
+    border: 2px solid #0150bc;
+    padding: 6px;
+    font-size: 11px;
+    color: #0150bc;
 }
 .about-checkbox{
     margin-bottom: 6px;
