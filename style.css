@@ -106,21 +106,25 @@ margin-bottom: 1px;
     position: absolute;
     z-index: 1;
     border: 1px solid #1e3ad8;
-    left: -124px;
+    left: -144px;
 }
 .keyword-menu,
 .about-menu,
 .age-menu,
 .where-menu,
-.when-menu,
-.who-menu{
+.when-menu{
     padding: 20px;
     width: 400px;
+}
+.who-menu{
+    padding: 20px;
+    width: 420px;
 }
 .keyword-checkbox input[type="checkbox"],
 .about-checkbox input[type="checkbox"],
 .age-checkbox input[type="checkbox"],
-.when-checkbox input[type="checkbox"]{
+.when-checkbox input[type="checkbox"],
+.who-checkbox input[type="checkbox"]{
     appearance: none;
     /* -webkit-appearance: none; */
     border-radius: 0px !important;
@@ -138,7 +142,7 @@ margin-bottom: 1px;
     width: 100%;
     border: 2px solid #0150bc;
 }
-.where-form-label,.when-form-label,.when-checkbox label{
+.where-form-label,.when-form-label,.when-checkbox label,.who-checkbox label{
     font-size: 13px;
     line-height: 19px; 
 }
