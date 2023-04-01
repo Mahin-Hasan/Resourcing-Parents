@@ -87,25 +87,34 @@ margin-bottom: 1px;
     width: 17.4%;
     border: 1px solid;
 }
-.keyword-position{
+.keyword-position,
+.about-position{
     background-color: #ffffff;
     position: absolute;
     z-index: 1;
     border: 1px solid;
 }
-.keyword-menu{
+.keyword-menu,
+.about-menu{
     padding: 20px;
     width: 400px;
 }
-.keyword-checkbox input[type="checkbox"]{
+.keyword-checkbox input[type="checkbox"],
+.about-checkbox input[type="checkbox"]{
     appearance: none;
+    /* -webkit-appearance: none; */
+    border-radius: 0px !important;
     padding: 10px;
     border: 2px solid #0150bc;
 }
-.keyword-checkbox label{
+.keyword-checkbox label,
+.about-checkbox label{
     padding: 2px 12px 2px 6px;
     font-size: 13px;
     line-height: 19px;    
+}
+.about-checkbox{
+    margin-bottom: 6px;
 }
 .keyword-input{
     width: 100%;
